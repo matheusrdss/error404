@@ -11,7 +11,7 @@ function App() {
       <div className="info-right">
         <h1>Error 404</h1>
         <p>Desculpe mas não encontramos a página que você está procurando</p>
-        <button className="voltar">Retornar</button>
+        <a className='voltar' href="https://portfolio-matheusr.vercel.app">Retornar</a>
       </div>
     </div>
   );
