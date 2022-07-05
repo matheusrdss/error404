@@ -71,3 +71,36 @@
     color: white;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 720px){
+    .infos {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .info-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .info-left img {
+        width: 40%;
+    }
+
+    .info-right h1 {
+        text-align: center;
+    }
+
+    .info-right p {
+        width: 90%;
+        text-align: center;
+    }
+
+    .voltar {
+        width: 7rem;
+        height: 2.5rem;
+    }
+}
